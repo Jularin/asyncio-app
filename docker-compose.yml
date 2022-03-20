@@ -1,0 +1,8 @@
+version: '3.2'
+
+services:
+  redis:
+    restart: on-failure
+    image: redis:6.0.1
+    ports:
+      - "6379:6379"
